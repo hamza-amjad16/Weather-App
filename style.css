@@ -1,0 +1,190 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body {
+    /* background: #0f0c29; */
+    /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); */
+    background: #2568836e;
+    
+    
+    
+}
+/* .container{
+    
+    text-align: center;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 5px;
+} */
+
+img {
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+h1 {
+    margin-left: 40%;
+    color: white;
+    
+    font-weight: 800;
+    font-style: italic;
+    margin-top: -2%;
+}
+
+/* span {
+    color: yellow;
+
+} */
+
+.btn0 {
+    background-color:#c0645a;
+    color: white;
+    width: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 40px;
+    border: none;
+    
+    margin-left: 43%;
+    cursor: pointer;
+
+
+}
+
+input {
+    margin-left: 73%;
+    margin-top: 1%;
+    width: 20%;
+}
+
+.btn1 {
+    background-color:#b85a1b;
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 40px;
+    border: none;
+    
+    cursor: pointer;
+}
+
+.img1 {
+    margin-left: 38%;
+    margin-top: 5%;
+}
+
+#div3 {
+    width: 30%;
+    margin-left: 33%;
+    margin-top: -2%;
+
+
+
+}
+
+
+
+
+
+.hh1{
+    margin: auto;
+    color: white;
+    
+    font-size: xx-large;
+    text-align: center;
+}
+h2{
+    color: white;
+    
+    font-size: larger;
+    text-align: center;
+    margin-top: -3%;
+
+}
+
+.img2{
+    margin-left: 25%;
+    margin-top: 8%;
+    
+}
+
+
+
+@media(max-width: 650px) {
+    h1{
+    margin-left: 33%;
+    }
+    .btn0 {
+        width: 25%;
+        margin-left: 38%;
+    }
+    input {
+        margin-left: 50%;
+        width: 29%;
+    }
+    .btn1 {
+        padding-left: 0%;
+        padding-right: 0%;
+        border-radius: 20px;
+        border: none;
+        width: 15%;
+        
+    }
+    .img1 {
+        margin-left:25%;
+        margin-top: 8%;
+        width: 50%;
+    }
+
+
+}
+
+@media(max-width: 400px) {
+    h1{
+        margin-left: 22%;
+        }
+        .btn0 {
+            width: 35%;
+            margin-left: 35%;
+        }
+        input {
+            margin-left: 50%;
+            width: 29%;
+        }
+        .btn1 {
+            padding-left: 0%;
+            padding-right: 0%;
+            border-radius: 20px;
+            border: none;
+            width: 15%;
+            
+        }
+        .img1 {
+            margin-left:25%;
+            margin-top: 8%;
+            width: 50%;
+        }
+    
+
+}
+@media(max-width: 1200px) {
+    input {
+        margin-left: 45%;
+        width: 34%;
+    }
+    .btn1 {
+       
+        border-radius: 20px;
+        border: none;
+        width: 10%;
+        
+    }
+
+}
+
